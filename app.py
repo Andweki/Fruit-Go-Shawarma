@@ -3,7 +3,7 @@ from datetime import datetime
 import requests
 
 # ── Configuration ────────────────────────────────────────────────────────────
-st.set_page_config(page_title="Local Bites Fast Food", page_icon="🍔", layout="centered")
+st.set_page_config(page_title="Bird House Fast Food", page_icon="🍔", layout="centered")
 
 # STEP 1: Paste your Apps Script Web App URL here after deploying it.
 # See the SETUP INSTRUCTIONS comment at the bottom of this file.
@@ -41,12 +41,12 @@ st.markdown("---")
 
 # ── Menu ─────────────────────────────────────────────────────────────────────
 menu = {
-    "Classic Beef Burger":      450,
-    "Crunchy Chicken Burger":   500,
-    "Loaded Cheese Fries":      250,
-    "Peri-Peri Chicken Wings":  400,
-    "Vanilla Milkshake":        300,
-    "Chilled Soda (500ml)":     100,
+    "Classic Shawarma ":        300,
+    "Hot Dogs":                 150,
+    "Loaded Cheese Fries":      200,
+    "Kienyeji Chicken":        2000,
+    "Beef Sausage pair":        150,
+    "Fresh Juices (500ml)":     200,
 }
 
 st.markdown('<p class="section-header">📜 Our Menu</p>', unsafe_allow_html=True)
