@@ -15,7 +15,7 @@ x = np.array([
     [6,88,85],
     [7,92,90],
     [8,95,94],
-    [2,58,54],
+    [9,68,54],
     [5,82,80],
     [6,85,81],
     [7,91,88],
@@ -31,7 +31,7 @@ y = np.array([
     1,
     1,
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -69,7 +69,7 @@ print("Accuracy:", accuracy)
 
 #Prediction
 new_employee = np.array([
-    [6,90,88]
+    [2,45,48]
 ])
 prediction = model.predict(new_employee)
 print("prediction:", prediction)
@@ -86,5 +86,5 @@ print("Predicted labels")
 print(predicted_labels)
 
 #Save the trained model
-model.save("employee_hiring_model.keras")
-print("Model Saved Successfully")
+# model.save("employee_hiring_model.keras")
+# print("Model Saved Successfully")
