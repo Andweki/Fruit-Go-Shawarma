@@ -3,4 +3,7 @@ requests
 tensorflow
 numpy
 scikit-learn
+keras
+matplotlib
+pandas
 
