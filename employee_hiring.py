@@ -85,6 +85,6 @@ print(y_test)
 print("Predicted labels")
 print(predicted_labels)
 
-#Save the trained model
-# model.save("employee_hiring_model.keras")
-# print("Model Saved Successfully")
+# Save the trained model
+model.save("employee_hiring_model.keras")
+print("Model Saved Successfully")
