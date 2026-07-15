@@ -1,13 +1,8 @@
 # Model Evaluation Scripts
-# import tensorflow as tf
+import tensorflow as tf
 import numpy as np
 from sklearn.model_selection import train_test_split
-# Temporary fix - replace tensorflow with sklearn equivalent
-try:
-    import tensorflow as tf
-except ImportError:
-    tf = None
-    
+
 #Employee features
 #[Employee, Interview score, communication]
 
